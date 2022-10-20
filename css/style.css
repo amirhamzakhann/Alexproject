@@ -1,0 +1,110 @@
+/* ========= Common Css Start Here */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  font-family: var(--fontroboto);
+  font-weight: var(--fzbold);
+  font-size: 30px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+/* ========= Common Css End Here */
+
+/* ========= Root Css Start Here */
+:root {
+  --fontroboto: "Roboto", sans-serif;
+  --fontnoticia: "Noticia Text", serif;
+  --fzthin: 100;
+  --fzlight: 300;
+  --fzregular: 400;
+  --fzmedium: 500;
+  --fzbold: 700;
+  --fzblack: 900;
+  --primarycolor: #222222;
+  --secondarycolor: #ff5733;
+}
+/* ========= Root Css End Here */
+
+/* ========= Navbar Css Start Here */
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  font-family: var(--fontroboto);
+  font-weight: var(--fzregular);
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--primarycolor);
+  transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover {
+  color: var(--secondarycolor);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 58px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+/* ========= Navbar Css End Here */
+
+/* ========= Images Css Start Here */
+#imageone {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#imagetwo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#imagethree {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.imagee_main picture img {
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+
+.imagee_main picture img:hover {
+  transform: scale(0.95);
+}
+/* ========= Images Css End Here */
+
+/* ========= Common Css Start Here */
+/* ========= Common Css End Here */
